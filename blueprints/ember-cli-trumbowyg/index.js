@@ -4,7 +4,7 @@ module.exports = {
 
   afterInstall: function(options) {
     return this.addBowerPackagesToProject([
-        { name: 'trumbowyg', target: '~2.1.0' },
+        { name: 'trumbowyg', target: '~2.3.0' },
     ]);
   }
 };
